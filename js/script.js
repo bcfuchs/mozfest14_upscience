@@ -1,3 +1,4 @@
+(function(){
 $(document).ready(function() {
 
 	console.log = function(){};
@@ -81,7 +82,7 @@ $(document).ready(function() {
 
 	}
 	//iphone
-setTimeout(function(){
+        setTimeout(function(){
 		// Hide the address bar!
 
 	$('body').scrollTop(1);
@@ -90,5 +91,5 @@ setTimeout(function(){
 
 });
 
-	
+})();	
     
