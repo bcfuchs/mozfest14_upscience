@@ -21,8 +21,10 @@ $(document).ready(function() {
 
 	$(".moreclick3").click(function(e) {
 		console.log(e);
+	       
 		if ( $(e.target).hasClass('glyphicon-chevron-down')) {
-			$(e.target).removeClass('glyphicon-chevron-down');
+		    $('#navgrid').toggle();
+		    $(e.target).removeClass('glyphicon-chevron-down');
 			$(e.target).addClass('glyphicon-chevron-up');
 		    }
 		    else 
